@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bisque"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:text="管理员"
+        />
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="30dp"
+        android:text="添加数据"
+        />
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="30dp"
+        android:text="删除数据"
+        />
+    <Button
+        android:id="@+id/bt_modify"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="30dp"
+        android:text="修改数据"
+        />
+    <Button
+        android:id="@+id/bt_manager_back"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="30dp"
+        android:text="退 出"
+        />
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bisque"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:text="主页"
+        />
+    <Button
+        android:id="@+id/bt_self"
+        android:layout_width="309dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/shape_button"
+        android:text="自主学习"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bt_quick"
+        android:layout_width="306dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/shape_button"
+        android:text="快速学习"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/bt_main_back"
+        android:layout_width="306dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/shape_button"
+        android:text="退          出"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

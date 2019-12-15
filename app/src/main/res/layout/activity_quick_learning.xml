@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".functions.QuickLearningActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bisque"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:text="快速学习"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/et_add_china"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="中文术语：" />
+    <EditText
+        android:id="@+id/et_add_china"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="160dp"
+        android:hint="请输入中文术语：" />
+
+    <View
+        android:layout_width="233dp"
+        android:layout_height="5px"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/darker_gray" />
+
+    <com.superluo.textbannerlibrary.TextBannerView
+        android:id="@+id/tv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="250dp"
+        android:background="#cc8ac6"
+        app:setGravity="right"
+        app:setTextColor="#fff"/>
+
+    <me.haowen.textbanner.TextBanner
+        android:id="@+id/textBanner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="300dp"
+        app:delayTime="5000"
+        app:duration="800" />
+
+</RelativeLayout>
